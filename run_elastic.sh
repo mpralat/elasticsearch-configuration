@@ -9,4 +9,5 @@ cp ../elasticsearch.yml config/
 rm config/jvm.options
 cp ../jvm.options config/
 export ES_JAVA_OPTS="-Xms600m -Xmx600m"
+sysctl -w vm.max_map_count=262144
 ./bin/elasticsearch &
