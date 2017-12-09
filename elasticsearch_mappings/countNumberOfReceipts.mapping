@@ -1,0 +1,24 @@
+count-number-of-receipts
+{
+    "properties": {
+        "clientSex": {
+            "type": "text"
+        },
+        "clientAgeGroup": {
+            "type": "integer"
+        },
+        "cashierID": {
+            "type": "integer"
+        },
+        "shopID": {
+            "type": "integer"
+        },
+        "occurrence": {
+            "type": "integer"
+        },
+        "date": {
+            "type": "date",
+            "format": "yyyy-MM-dd HH:mm:ss"
+        }
+    }
+}

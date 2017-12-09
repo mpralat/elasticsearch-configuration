@@ -1,0 +1,30 @@
+count-pair-occurrences
+{
+    "properties": {
+        "product1ID": {
+            "type": "integer"
+        },
+        "product2ID": {
+            "type": "integer"
+        },
+        "clientSex": {
+            "type": "text"
+        },
+        "clientAgeGroup": {
+            "type": "integer"
+        },
+        "shopID": {
+            "type": "integer"
+        },
+        "shopID": {
+            "type": "integer"
+        },
+        "occurrence": {
+            "type": "integer"
+        },
+        "date": {
+            "type": "date",
+            "format": "yyyy-MM-dd HH:mm:ss"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+count-total-price-for-product
+{
+    "properties": {
+        "productID": {
+            "type": "integer"
+        },
+        "clientSex": {
+            "type": "text"
+        },
+        "clientAgeGroup": {
+            "type": "integer"
+        },
+        "shopID": {
+            "type": "integer"
+        },
+        "totalPrice": {
+            "type": "double"
+        },
+        "date": {
+            "type": "date",
+            "format": "yyyy-MM-dd HH:mm:ss"
+        }
+    }
+}

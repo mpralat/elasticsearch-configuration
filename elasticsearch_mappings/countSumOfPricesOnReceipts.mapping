@@ -1,0 +1,24 @@
+count-sum-of-prices-on-receipts
+{
+    "properties": {
+        "clientSex": {
+            "type": "text"
+        },
+        "clientAgeGroup": {
+            "type": "integer"
+        },
+        "shopID": {
+            "type": "integer"
+        },
+        "cashierID": {
+            "type": "integer"
+        },
+        "sumOfPrices": {
+            "type": "double"
+        },
+        "date": {
+            "type": "date",
+            "format": "yyyy-MM-dd HH:mm:ss"
+        }
+    }
+}
