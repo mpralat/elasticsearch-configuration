@@ -1,3 +1,5 @@
+#!/bin/bash
+
 if  [ ! -d  elasticsearch-5.5.2 ]
 then
     wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-5.5.2.zip
@@ -9,7 +11,7 @@ cp ../elasticsearch.yml config/
 rm config/jvm.options
 cp ../jvm.options config/
 export ES_JAVA_OPTS="-Xms600m -Xmx600m"
-sysctl -w vm.max_map_count=262144
+# sysctl -w vm.max_map_count=262144
 ./bin/elasticsearch &
 
 # clean the indices if run with the clean flag
